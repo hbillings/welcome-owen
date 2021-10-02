@@ -26,7 +26,7 @@
 		color: _palette(fg);
 		font-family: _font(family);
 		font-weight: _font(weight);
-		font-size: 1rem;
+		font-size: 1.3rem;
 		line-height: 1.65;
 	}
 
@@ -36,7 +36,8 @@
 			'background-color #{_duration(transition)} ease-in-out',
 			'border-bottom-color #{_duration(transition)} ease-in-out'
 		));
-		border-bottom: dotted 1px _palette(fg-light);
+    font-weight: bold;
+		border-bottom: dotted 1px _palette(fg);
 		text-decoration: none;
 		color: inherit;
 
