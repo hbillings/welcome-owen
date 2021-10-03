@@ -6,20 +6,11 @@ const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="content">
       <div className="inner">
-       <img src={nameplate} alt="Welcome, Owen Ira Billings!" style={{maxWidth: '600px'}}/> 
+       <img src={nameplate} alt="Welcome, Owen Ira Billings!" style={{maxWidth: '600px', width: '100%'}}/> 
       </div>
     </div>
     <nav>
       <ul>
-        {/*<li>
-           <button 
-            onClick={() => {
-              props.onOpenArticle('intro')
-            }}
-          >
-            Intro
-          </button>
-        </li>*/}
         <li>
           <button
             onClick={() => {

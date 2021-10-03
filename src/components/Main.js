@@ -30,7 +30,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdMlmkrq5iaKm-voBXkaD4y-m_mXyUoQsd4i-OPR_uZwGpo_Q/viewform?embedded=true" width="640" height="580" frameborder="0" marginheight="0" marginwidth="0" style={{marginLeft: '-2rem'}}>Loading…</iframe>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdMlmkrq5iaKm-voBXkaD4y-m_mXyUoQsd4i-OPR_uZwGpo_Q/viewform?embedded=true" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
           {close}
         </article>
 
